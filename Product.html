@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+
+    <link rel="stylesheet" href="product.css">
+
+    <link rel="stylesheet" href="/FA5PRO-master/css/all.css">
+    <link rel="stylesheet" href="/FA5PRO-master/css/regular.css">
+    <link rel="stylesheet" href="/FA5PRO-master/css/duotone.css">
+    <link rel="stylesheet" href="/FA5PRO-master/css/brands.css">
+    <link rel="stylesheet" href="/FA5PRO-master/css/light.css">
+    <link rel="stylesheet" href="/FA5PRO-master/css/solid.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+
+    <link rel="stylesheet" href="bootstrap.min.css">
+
+    <script src="bootstrap.bundle.min.js"></script>
+
+</head>
+
+<body>
+
+
+    <div class="main">
+
+        <div class="vm">
+
+            <div class="logo">
+                <img src="img2/Flipkart-Logo_img_1-removebg-preview.png">
+                <h1>Flipkart</h1>
+            </div>
+            <div class="hdr">
+                <input class="search" type="text" placeholder="Search...">
+                <a href="#"><i class="fa-duotone fa-magnifying-glass"></i></a>
+                <a href="#"><i class="fa-thin fa-cart-shopping"></i></a>
+                <a href="loginpagefinal.html"><i class="fa-duotone fa-user"></i></a>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="nav">
+        <a href="wpexp6.html" style="text-decoration:none">Home</a>
+        <div class="dropdown">
+            <a href="Product.html">Products</a>
+            <i class="arrow down"></i></button>
+            <div class="dropdown-content">
+                <a href="Addproduct.html">Addproduct</a>
+                <a href="productmanagement.html">productmanagement</a>
+                <a href="Productdetailsfinal.html">productdetails</a>
+            </div>
+        </div>
+        <a href="Category.html" style="text-decoration: none;">Category</a>
+        <a href="Contactusfinal.html" style="text-decoration: none;">Contact us</a>
+    </div>
+    <br>
+    <hr>
+
+
+    <div>
+        <div class="row">
+            <div class="col-xl-3">
+
+                <div style="margin-left: 70px;width: 80%;margin-top: 15%;">
+                    <select
+                        style="background-color: #287ff0;color: aliceblue; width: 100%;height: 35px; padding: 5px;font-size: 14px;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+                        <option>Select</option>
+                        <option>Gaming Laptop</option>
+                        <option>Professional Laptop</option>
+                        <option>Creators Laptop</option>
+                    </select>
+
+                    <!-- Filter -->
+
+                    <form class="shop__filter mt-3 mb-5"
+                        style="background-color:rgb(231, 226, 226);  border: 2px solid black;font-size: 14px;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;"
+                        id="form">
+
+                        <h1 align="center">Filters</h1>
+
+                        <!-- Checkboxes -->
+                        <br>
+                        <h3 class="headline mx-2 mx-2">
+                            <span><i class="fa-solid fa-chevrons-right"></i> Brand</span>
+                        </h3>
+
+                        <div class=" mx-5">
+                            <input type="checkbox" value="" id="shop-filter-checkbox_1"
+                                style="height: 17px;width: 17px;" />
+                            <label for="shop-filter-checkbox_1">ASUS</label>
+                        </div>
+
+                        <div class=" mx-5">
+                            <input type="checkbox" value="" id="shop-filter-checkbox_2"
+                                style="height: 17px;width: 17px;" />
+                            <label for="shop-filter-checkbox_2">DELL</label>
+                        </div>
+
+                        <div class=" mx-5">
+                            <input type="checkbox" value="" id="shop-filter-checkbox_3" checked=""
+                                style="height: 17px;width: 17px;" />
+                            <label for="shop-filter-checkbox_3">HP</label>
+                        </div>
+
+                        <div class="mx-5">
+                            <input type="checkbox" value="" id="shop-filter-checkbox_4"
+                                style="height: 17px;width: 17px;" />
+                            <label for="shop-filter-checkbox_4">Lenovo</label>
+                        </div>
+                        <div class=" mx-5">
+                            <input type="checkbox" value="" id="shop-filter-checkbox_5"
+                                style="height: 17px;width: 17px;" />
+                            <label for="shop-filter-checkbox_5">Not specified</label>
+                        </div><br>
+
+                        <!-- Price -->
+                        <h3 class="headline mx-2">
+                            <span><i class="fa-solid fa-chevrons-right"></i> Price</span>
+                        </h3>
+                        <div class="radio mx-2">
+                            <input type="radio" name="shop-filter__price" id="shop-filter-price_1" value=""
+                                checked="" />
+                            <label for="shop-filter-price_1">1000-10000</label>
+                        </div>
+                        <div class="radio mx-2">
+                            <input type="radio" name="shop-filter__price" id="shop-filter-price_2" value="" />
+                            <label for="shop-filter-price_2">10000-50000</label>
+                        </div>
+                        <div class="radio mx-2">
+                            <input type="radio" name="shop-filter__price" id="shop-filter-price_3" value="" />
+                            <label for="shop-filter-price_3">60000-80000</label>
+                        </div>
+                        <div class="radio mx-2">
+                            <input type="radio" name="shop-filter__price" id="shop-filter-price_4" value="specify" />
+                            <label for="shop-filter-price_4">Other (specify)</label>
+                        </div><br>
+
+                        <!-- Radios -->
+                        <h3 class="headline mx-2">
+                            <span><i class="fa-solid fa-chevrons-right"></i> Specification</span>
+                        </h3>
+                        <div class="radio mx-2">
+                            <input type="radio" name="shop-filter__radio" id="shop-filter-radio_1" value=""
+                                checked="" />
+                            <label for="shop-filter-radio_1">High RAM</label>
+                        </div>
+                        <div class="radio mx-2">
+                            <input type="radio" name="shop-filter__radio" id="shop-filter-radio_2" value="" />
+                            <label for="shop-filter-radio_2">Low RAM</label>
+                        </div>
+                        <div class="radio mx-2">
+                            <input type="radio" name="shop-filter__radio" id="shop-filter-radio_3" value="" />
+                            <label for="shop-filter-radio_3">High Process</label>
+                        </div>
+                        <div class="radio mx-2">
+                            <input type="radio" name="shop-filter__radio" id="shop-filter-radio_4" value="" />
+                            <label for="shop-filter-radio_4">Low Process</label>
+                        </div>
+                        <div class="radio mx-2">
+                            <input type="radio" name="shop-filter__radio" id="shop-filter-radio_5" value="" />
+                            <label for="shop-filter-radio_5">Not
+                                specified</label><br><br><br><br><br><br>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+            <div class="col-xl-9">
+                <div class="row">
+                    <div class="col-xl-3" style="margin-left: 5%;">
+                        <img src="img2/asus vivobook-PhotoRoom.png-PhotoRoom.png" style="height: 300px;width:300px;">
+                        <img src="img2/hp3laptop_500x500 13-PhotoRoom.png-PhotoRoom.png"
+                            style="height: 230px;width:360px;padding-right: 55px;">
+                        <img src="img2/gaming 7 laptop-PhotoRoom.png-PhotoRoom.png" style="height: 327px;width:327px;">
+                    </div>
+                    <div class="col-xl-8">
+                        <div class="d-flex">
+                            <div class="ab">
+                                <p>Asus Vivobook</p>
+                                <p>Asus</p>
+                                <p>₹55,990</p>
+                                <br>
+
+                                <P style="padding-top: 135px;">Hp Chromebook 14a</P>
+                                <P>Hp</P>
+                                <P>₹75,999</P>
+
+                                <P style="padding-top: 170px;">Lenovo Ideapad Gaming 3</P>
+                                <P>Lenovo</P>
+                                <P>₹65,990</P>
+                            </div>
+
+                            <div>
+                                <button class="form-control"
+                                    style="background-color: #287ff0; color:aliceblue;font-size: 15px;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;margin-top: 95px; margin-left: 95px;border-radius: 70px;">Buy</button><br>
+                                <button class="form-control"
+                                    style="background-color:#287ff0 ; color: aliceblue;font-size: 15px;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;margin-left: 95px;border-radius: 70px;">Add
+                                    to cart</button>
+
+                                <button class="form-control"
+                                    style="background-color: #287ff0; color: aliceblue;font-size: 15px;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;margin-top: 180px; margin-left: 95px;border-radius: 70px;">Buy</button><br>
+                                <button class="form-control"
+                                    style="background-color: #287ff0; color: aliceblue;font-size: 15px;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;margin-left: 95px;border-radius: 70px;">Add
+                                    to cart</button>
+
+                                <button class="form-control"
+                                    style="background-color: #287ff0; color:aliceblue;font-size: 15px;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;margin-top:195px;margin-left: 95px;border-radius: 70px;">Buy</button><br>
+                                <button class="form-control"
+                                    style="background-color: #287ff0; color:aliceblue;font-size: 15px;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;margin-left: 95px;border-radius: 70px;">Add
+                                    to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
