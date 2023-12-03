@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    background-color: #f9fafb;
+    font-family: "Open Sans", sans-serif;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    padding: 5px;
+    background-color: #287FF0;
+}
+
+.vm {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.vm .logo {
+    display: flex;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif Bold Italic;
+    color: #FFE11B;
+}
+
+.vm img {
+    background-color: #287FF0;
+    height: 90px;
+    width: 120px;
+    border-radius: 30%;
+}
+
+.vm h1 {
+    font-size: 40px;
+    padding-left: 15px;
+    padding-top: 1px;
+}
+
+.cnt {
+    background-color: #75a8eb;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    width: 50%;
+    padding-top: 35px;
+    padding-left: 35px;
+    padding-right: 20px;
+    border-radius: 10%;
+    text-align: center;
+    margin: 0 0 20px;
+    font-size: 24px;
+
+}
+
+.form {
+    padding: 20px 25px;
+}
+
+.form__control {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+    display: grid;
+    /* align-items: center; */
+    grid-template-columns: 20% 80%;
+}
+
+.form__control label {
+    display: inline-block;
+    margin-bottom: 5px;
+    /* margin-left: 10px; */
+    text-align: start;
+    font-size: 20px;
+}
+
+.form__control input {
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    font-family: inherit;
+    font-size: 14px;
+    width: 70%;
+    padding: 10px;
+    margin-left: 25%;
+    outline-color: #f37335;
+}
+
+.form__control.success input {
+    border-color: #2ecc71;
+}
+
+.form__control.error input {
+    border-color: #e74c3c;
+    font-size: 20px;
+}
+
+.form__control i {
+    visibility: hidden;
+    position: absolute;
+    top: 40px;
+    right: 10px;
+}
+
+.form__control.success i.fa-check-circle {
+    visibility: visible;
+    color: #2ecc71;
+    margin-left: 20%;
+}
+
+
+.form__control.error i.fa-exclamation-circle {
+    visibility: visible;
+    color: #fb2008;
+    margin-left: 20%;
+
+}
+
+.form__control small {
+    visibility: hidden;
+    position: absolute;
+    grid-area: 2 / 2 / auto / span 3;
+    bottom: 0;
+    left: 0;
+    font-size: 15px;
+}
+
+.form__control.error small {
+    color: rgb(240, 30, 30);
+    visibility: visible;
+}
+
+form .button {
+    height: 45px;
+    margin: 15px
+}
+
+form .button input {
+    height: 80%;
+    width: 20%;
+    border-radius: 25px;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: green
+}
+
+form .button input:hover {
+    /* transform: scale(0.99); */
+    background-color: #287FF0;
+}
+
+label {
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+input,
+label {
+    margin: 0.4rem 0;
+}

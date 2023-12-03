@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrationvalidation</title>
+
+    <link rel="stylesheet" href="registrationvalidation.css">
+
+    <link rel="stylesheet" href="/FA5PRO-master/css/all.css">
+    <link rel="stylesheet" href="/FA5PRO-master/css/regular.css">
+    <link rel="stylesheet" href="/FA5PRO-master/css/duotone.css">
+    <link rel="stylesheet" href="/FA5PRO-master/css/brands.css">
+    <link rel="stylesheet" href="/FA5PRO-master/css/light.css">
+    <link rel="stylesheet" href="/FA5PRO-master/css/solid.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+
+    <script src="bootstrap.bundle.min.js"></script>
+
+</head>
+
+<body>
+
+    <div class="main">
+
+        <div class="vm">
+
+            <div class="logo">
+                <img src="Flipkart-Logo_img_1-removebg-preview.png">
+                <h1>Flipkart</h1>
+            </div>
+
+        </div>
+
+    </div><br><br>
+    <center>
+        <div class="cnt">
+
+            <div style="color: aliceblue; font-size: 27px;padding-top:2px;padding-right: 65%;">
+                <i class=" fa-solid fa-circle-user">
+                    <b>Create Account</b>
+                </i>
+            </div>
+
+            <form class="form" id="form" action="action.php" method="post">
+
+                <div class="form__control">
+                    <label>First Name</label>
+                    <input type="text" placeholder="Insert your first name..." name="fname" id="firstname" />
+                    <small class="fa fa-exclamation-circle" style="margin-left: 25%;">Error message</small>
+                </div>
+
+                <div class="form__control">
+                    <label>Last Name</label>
+                    <input type="text" placeholder="Insert your last name..." name="lname" id="lastname" />
+                    <small class="fa fa-exclamation-circle" style="margin-left: 25%;">Error message</small>
+                </div>
+
+                <div class="form__control">
+                    <label>Email</label>
+                    <input type="email" placeholder="flipkart@example.com" name="emailid" id="email" />
+                    <small class="fa fa-exclamation-circle" style="margin-left: 25%;">Error message</small>
+                </div>
+                <div class="form__control">
+                    <label>Password</label>
+                    <input type="password" placeholder="password..." name="pwd" id="password" />
+                    <small class="fa fa-exclamation-circle" style="margin-left: 25%;">Error message</small>
+                </div>
+                <div class="form__control">
+                    <label>Confirm Password</label>
+                    <input type="password" placeholder="confirm password..." name="cpwd" id="confirmPassword" />
+                    <small class="fa fa-exclamation-circle" style="margin-left: 25%;">Error message</small>
+                </div>
+
+                <div class="form__control">
+                    <label>DOB</label>
+                    <input type="date" id="start" name="dob" value="dd/mm/yy" min="1970-01-01" max="2030-12-31"
+                        style="width: 70%; height: 30px;">
+                    <small class="fa fa-exclamation-circle">Error message</small>
+                </div>
+
+                <div class="button"
+                    style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+                    <input type="submit" class="btn btn-success " value="Sign-Up" name="sub">
+                </div>
+
+            </form>
+        </div>
+    </center>
+
+    <!-- <script src="registrationvalidation.js"></script> -->
+
+</body>
+
+</html>
